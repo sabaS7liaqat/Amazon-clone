@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class=" flex justify-center text-center items-center bg-[rgb(19,25,33)] min-h-6 gap-2 pt-1 pb-1 px-0" >
+        <img src="/assets/Icons/final.logo.png" alt="logo icon" class="mix-blend-difference pt-4 h-12" >
+
+        <div class="flex items-end  hover:border rounded-sm p-1">
+            <img src="/assets/Icons/location icon.png" alt="location" class="h-4 ">
+            <div class=" text-white text-sm/[12px] text-left content-end ">
+               <p class=" text-[rgb(230,230,230)] mb-2">Deliver to</p>
+               <p class="font-semibold align-baseline"> Pakistan</p>
+            </div>
+        </div>
+
+        <div class=" flex h-10 box-border border-solid hover:border-[3px] rounded-sm border-[rgb(237,151,32)] ">
+            <select class=" bg-[rgb(230,230,230)] w-14 cursor-pointer hover:bg-[rgb(221,219,221)] border-2 rounded-sm border-[rgb(237,151,32)] ">
+                <option value="all"> All</option>
+                <option value="all"> Arts & Crafts</option>
+                <option value="all"> Automotive</option>
+                <option value="all"> Deals</option>
+                <option value="all"> Electronics</option>
+                <option value="all"> Books</option>
+                <option value="all"> Accessories</option>
+                <option value="all"> Gifts</option>
+                <option value="all"> Clothes</option>
+                <option value="all"> Shoes</option>
+                <option value="all"> Mobiles</option>
+                <option value="all"> Toys</option>
+            </select>
+
+            <input type="text" placeholder="Search Amazon" image="/" class=" indent-8 text-[15px] w-[600px] h-8 flex-col cursor-text border-none outline-none hover:border-4 border-[rgb(237,151,32)]">
+
+            <div class="bg-white">
+                <img src="/assets/Icons/lens icon.png" alt="scan" class="h-5 m-2 mt-3 mr-4">
+            </div>
+                <img src="/assets/Icons/search.jpg" alt="Search" class=" h-15 cursor-pointer hover:[rgb(237,151,32)]">
+        </div>
+
+        <div class="flex items-center hover:border rounded-sm pt-2 pb-2">
+            <img src="/assets/Icons/flag icon.jpg" alt="flag" class="h-3">
+            <select name="languages" id="lang" class="bg-[rgb(19,25,33)] text-white w-10">
+                <option value="">EN</option>
+                <option value="">Urdu</option>
+                <option value="">Punjabi</option>
+                <option value="">Arabic</option>
+                <option value="">Persion</option>
+            </select>
+        </div>
+
+        <div class=" text-white text-left hover:border rounded-sm">
+            <p class=" text-[13px]">Hello, sign in</p>
+            <p class=" text-[14px] font-semibold">Account & Lists</p>
+        </div>
+
+        <div class="text-white text-left hover:border rounded-sm">
+            <p class=" text-[13px]">Returns</p>
+            <p class="text-[14px] font-semibold">& Orders</p>
+        </div>
+
+        <div class="text-white flex items-end hover:border rounded-sm  ">
+            <img src="/assets/Icons/cart icon edited.jpg" alt=" cart" class=" h-10 mix-blend-color-dodge ">
+            <p class= " ">Cart</p>
+        </div>
+
+    </nav>
+
+    <nav class="flex gap-5 bg-[rgb(35,47,62)] text-white p-3 h-10 items-center">
+        <div class="flex items-center"> 
+            <img src="/assets/Icons/menu2.jpg" alt="menu" class="h-7 ">
+            <p>All</p>
+        </div>
+
+        <ul class="flex gap-5 ">
+            <li class="hover:border-2 rounded-lg border-[rgb(237,151,32)]">Today's Deals</li>
+            <li class="hover:border-2 rounded-lg border-[rgb(237,151,32)]"> Customer Service</li>
+            <li class="hover:border-2 rounded-lg border-[rgb(237,151,32)]">Registry</li>
+            <li class="hover:border-2 rounded-lg border-[rgb(237,151,32)]">Gift Cards</li>
+            <li class="hover:border-2 rounded-lg border-[rgb(237,151,32)]">Sell</li>
+        </ul>
+    </nav>
+
+    <div class="bg-[rgb(227,230,230)] pl-9 pr-9">
+        <div style="background-image: url(https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg);" class="bg-cover h-screen w-[100%] ">
+            <div>
+                <div class="bg-purple-300">post1</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
